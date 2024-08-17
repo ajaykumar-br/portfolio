@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ajay Kumar's Portfolio
 
-## Getting Started
+Welcome to my portfolio! This repository showcases my work as a Software Developer. Below, you'll find an overview of the technologies I use, and ways to get in touch with me.
 
-First, run the development server:
+## 🛠️ Technologies & Tools
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Front-end:** Next.js, React.js, Tailwind CSS, Shadcn, Framer Motion, Material-UI
+- **Back-end:** Express.js, Node.js
+- **Database:** MongoDB, PostgreSQL, Prisma
+- **Other:** Docker, Git, GitHub, AWS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📫 Let's Connect
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+I'm always open to discussing new opportunities, collaborations, or any other inquiries. Feel free to reach out to me via the following platforms:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Email:** [abasawarajra2023@fau.edu](mailto:abasawarajra2023@fau.edu)
+- **LinkedIn:** [linkedin.com/ajaykumar-br](https://www.linkedin.com/in/ajaykumar-br/)
+- **GitHub:** [github.com/ajaykumar-br](https://github.com/ajaykumar-br)
 
-## Learn More
+## 📊 GitHub Stats
 
-To learn more about Next.js, take a look at the following resources:
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ajaykumar-br&show_icons=true&theme=radical)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏆 Achievements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Third place in a week long AWS Cloud Quest competition 
+- Collaborated with 3 other participants and presented findings to panel of judges in Responsible AI hackathon
 
-## Deploy on Vercel
+## 🚀 About Me
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I am a software developer with a passion for creating elegant and scalable digital experiences. I have a strong foundation in front-end and back-end technologies, and I'm constantly exploring new tools and frameworks to expand my skill set.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Currently, I'm pursuing my Master's in Computer Science, expected to be completed by May 2025. Through my studies and practical projects, I’ve developed a keen interest in specific areas like Web 3.0, cloud computing, etc.
+
+## 🌱 Currently Learning
+
+- Web 3.0, Blockchain Technology
+- Web Sockets, WebRTC
+- Design Patterns and Architecture
+
+
+Thank you for visiting my portfolio! I look forward to connecting with you.
