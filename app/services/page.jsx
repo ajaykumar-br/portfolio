@@ -9,29 +9,29 @@ const services = [
     num: "01",
     title: "Front-End Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, animi.",
-    href: "",
+      "Crafting visually stunning and responsive interfaces for seamless user experiences.",
+    href: "/work",
   },
   {
     num: "02",
     title: "Back-End Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, animi.",
-    href: "",
+      "Building robust and scalable server-side applications to power dynamic websites.",
+    href: "/work",
   },
   {
     num: "03",
     title: "System Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, animi.",
-    href: "",
+      "Architecting efficient and resilient systems to meet complex business needs.",
+    href: "/work",
   },
   {
     num: "04",
     title: "Web 3.0",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, animi.",
-    href: "",
+      "Developing decentralized applications leveraging blockchain technology for the future of the web.",
+    href: "/work",
   },
 ];
 
@@ -43,7 +43,7 @@ const Services = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+            transition: { delay: 0.4, duration: 0.4, ease: "easeIn" },
           }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
         >

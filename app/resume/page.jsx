@@ -15,7 +15,7 @@ import {
 const about = {
   title: "About Me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, repellat.",
+    "I am an enthusiastic software developer with a keen interest in creating scalable and efficient full-stack applications. Currently pursuing a Master’s in Computer Science, I'm continuously expanding my knowledge in emerging technologies, including Web 3.0. With hands-on experience in front-end and back-end development, I enjoy tackling complex challenges and am committed to building innovative digital solutions. My goal is to leverage my skills to contribute to cutting-edge projects that make a meaningful impact.",
   info: [
     {
       fieldName: "Name",
@@ -49,7 +49,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, repellat.",
+    "I have developed scalable full-stack web applications, showcasing my technical expertise. Recently, I've cultivated a strong interest in Web 3.0, where I've dabbled in smaller, innovative projects.",
   items: [
     {
       company: "COD Trees",
@@ -74,7 +74,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, repellat.",
+    "Pursuing a Master of Science in Computer Science with a strong focus on software development, data structures, algorithms, and emerging technologies.",
   items: [
     {
       institution: "Florida Atlantic University",
@@ -93,7 +93,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, repellat.",
+    "These are the technologies I use to build complex web solutions.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -158,7 +158,7 @@ const Resume = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+        transition: { delay: 0.4, duration: 0.4, ease: "easeIn" },
       }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
@@ -274,7 +274,7 @@ const Resume = () => {
             >
               <div className="">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0 pb-3">
                   {about.description}
                 </p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">

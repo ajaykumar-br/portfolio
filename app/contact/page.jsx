@@ -42,7 +42,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+        transition: { delay: 0.4, duration: 0.4, ease: "easeIn" },
       }}
       className="py-6"
     >
@@ -53,8 +53,11 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-                reprehenderit.
+                I'm always excited to hear from fellow professionals,
+                collaborators, or anyone interested in discussing new
+                opportunities and ideas. Whether you have a question, a project
+                in mind, or just want to chat about the latest trends in
+                technology, feel free to reach out.
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -24,81 +24,44 @@ const projects = [
     category: "frontend",
     title: "Portfolio",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, corporis.",
+      "I've crafted a sleek and responsive portfolio website using Next.js, Tailwind CSS, Shadcn, and Framer Motion.",
     stack: [
       { name: "NextJS" },
       { name: "TailwindCss" },
       { name: "Shadcn" },
       { name: "Framer-motion" },
     ],
-    image: "/assets/work/thumb1.png",
-    github: "",
+    image: "/assets/work/project1.png",
+    github: "https://github.com/ajaykumar-br/portfolio",
     live: "",
   },
   {
     num: "02",
-    category: "frontend",
-    title: "Project 2",
+    category: "fullstack",
+    title: "Youtube Clone",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, corporis.",
-    stack: [
-      { name: "NextJS" },
-      { name: "TailwindCss" },
-      { name: "Shadcn" },
-      { name: "Framer-motion" },
-    ],
-    image: "/assets/work/thumb1.png",
-    github: "",
-    live: "",
+      "I developed a YouTube clone using React, Material UI, and Rapid API for a seamless video browsing experience.",
+    stack: [{ name: "ReactJS" }, { name: "Material UI" }, { name: "RapidAPI" }],
+    image: "/assets/work/project2.png",
+    github: "https://github.com/ajaykumar-br/Youtube-Clone",
+    live: "https://youtube-clone-ajaykbr.vercel.app/",
   },
-  {
-    num: "03",
-    category: "frontend",
-    title: "Project 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, corporis.",
-    stack: [
-      { name: "NextJS" },
-      { name: "TailwindCss" },
-      { name: "Shadcn" },
-      { name: "Framer-motion" },
-    ],
-    image: "/assets/work/thumb1.png",
-    github: "",
-    live: "",
-  },
-  {
-    num: "04",
-    category: "frontend",
-    title: "Project 4",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, corporis.",
-    stack: [
-      { name: "NextJS" },
-      { name: "TailwindCss" },
-      { name: "Shadcn" },
-      { name: "Framer-motion" },
-    ],
-    image: "/assets/work/thumb1.png",
-    github: "",
-    live: "",
-  },
-  {
-    num: "05",
-    category: "frontend",
-    title: "Project",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, corporis.",
-    stack: [
-      { name: "NextJS" },
-      { name: "TailwindCss" },
-      { name: "Shadcn" },
-      { name: "Framer-motion" },
-    ],
-    image: "/assets/work/thumb1.png",
-    github: "",
-    live: "",
-  },
+  // {
+  //   num: "03",
+  //   category: "frontend",
+  //   title: "Project 3",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, corporis.",
+  //   stack: [
+  //     { name: "NextJS" },
+  //     { name: "TailwindCss" },
+  //     { name: "Shadcn" },
+  //     { name: "Framer-motion" },
+  //   ],
+  //   image: "/assets/work/thumb1.png",
+  //   github: "",
+  //   live: "",
+  // },
 ];
 
 const Work = () => {
@@ -116,7 +79,7 @@ const Work = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+        transition: { delay: 0.4, duration: 0.4, ease: "easeIn" },
       }}
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
@@ -197,7 +160,7 @@ const Work = () => {
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
+                          className="w-full h-full object-cover"
                           alt=""
                         />
                       </div>
