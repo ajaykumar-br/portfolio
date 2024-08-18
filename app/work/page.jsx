@@ -33,7 +33,7 @@ const projects = [
     ],
     image: "/assets/work/project1.png",
     github: "https://github.com/ajaykumar-br/portfolio",
-    live: "",
+    live: "https://ajaykumar-portfolio.vercel.app/",
   },
   {
     num: "02",
